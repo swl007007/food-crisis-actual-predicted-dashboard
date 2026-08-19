@@ -1,0 +1,189 @@
+{
+  "available_dates": [
+    "2021-02-01",
+    "2021-06-01",
+    "2021-10-01",
+    "2022-02-01",
+    "2022-06-01",
+    "2022-10-01",
+    "2023-02-01",
+    "2023-06-01",
+    "2023-10-01",
+    "2024-02-01",
+    "2024-06-01",
+    "2024-10-01"
+  ],
+  "available_models": [
+    "GeoDT",
+    "GeoRF"
+  ],
+  "available_scopes": [
+    "fs1",
+    "fs2",
+    "fs3"
+  ],
+  "excluded_sources": [
+    "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_XGB_fs1\\predictions_monthly.csv",
+    "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_XGB_fs2\\predictions_monthly.csv",
+    "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_XGB_fs3\\predictions_monthly.csv"
+  ],
+  "generated_at_utc": "2026-05-14T19:56:56Z",
+  "included_sources": [
+    {
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "model": "GeoDT",
+      "model_token": "DT",
+      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_DT_fs1\\predictions_monthly.csv",
+      "required_columns_present": true,
+      "row_count": 62189,
+      "scope": "fs1"
+    },
+    {
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "model": "GeoDT",
+      "model_token": "DT",
+      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_DT_fs2\\predictions_monthly.csv",
+      "required_columns_present": true,
+      "row_count": 62189,
+      "scope": "fs2"
+    },
+    {
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "model": "GeoDT",
+      "model_token": "DT",
+      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_DT_fs3\\predictions_monthly.csv",
+      "required_columns_present": true,
+      "row_count": 62189,
+      "scope": "fs3"
+    },
+    {
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "model": "GeoRF",
+      "model_token": "GF",
+      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_GF_fs1\\predictions_monthly.csv",
+      "required_columns_present": true,
+      "row_count": 62189,
+      "scope": "fs1"
+    },
+    {
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "model": "GeoRF",
+      "model_token": "GF",
+      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_GF_fs2\\predictions_monthly.csv",
+      "required_columns_present": true,
+      "row_count": 62189,
+      "scope": "fs2"
+    },
+    {
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "model": "GeoRF",
+      "model_token": "GF",
+      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_GF_fs3\\predictions_monthly.csv",
+      "required_columns_present": true,
+      "row_count": 62189,
+      "scope": "fs3"
+    }
+  ],
+  "join_key": "FEWSNET_admin_code",
+  "label_contract": {
+    "actual_field": "y_true",
+    "crisis_value": 1,
+    "non_crisis_value": 0,
+    "predicted_field": "y_pred_partitioned"
+  },
+  "omissions_or_warnings": [
+    "Fixed 1 invalid shapefile geometries with buffer(0)"
+  ],
+  "optional_assets": [],
+  "output_html": "C:\\Users\\swl00\\IFPRI Dropbox\\Weilun Shi\\Google fund\\Analysis\\2.source_code\\Step5_Geo_RF_trial\\Food_Crisis_Cluster\\main_ablation_results\\march2026_main_backup_month_ind_cont3\\actual_predicted_dashboard\\actual_predicted_dashboard.html",
+  "production_status": "exploratory",
+  "shapefile_path": "C:\\Users\\swl00\\IFPRI Dropbox\\Weilun Shi\\Google fund\\Analysis\\1.Source Data\\Outcome\\FEWSNET_IPC\\FEWS NET Admin Boundaries\\FEWS_Admin_LZ_v3.shp",
+  "smoke_test": {
+    "date": "2024-06-01",
+    "join_rows": 5697,
+    "model": "GeoRF",
+    "passed": true,
+    "scope": "fs2"
+  },
+  "source_directory": "main_ablation_results\\march2026_main_backup_month_ind_cont3",
+  "threshold_contract": "none; existing binary labels only",
+  "workflow_mode": "exploratory diagnostics/tooling"
+}
