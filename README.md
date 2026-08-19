@@ -7,7 +7,7 @@ always the corresponding fixed-partition prediction (`y_pred_partitioned`).
 
 The dashboard contains:
 
-- GeoRF and GeoDT;
+- GeoRF and GeoRF-Single;
 - 4-, 8-, and 12-month horizons (`fs1`, `fs2`, and `fs3`);
 - the 12 evaluated February/June/October target months from 2021 through 2024;
 - embedded SVG geometry and data, with no runtime API or CDN dependency.

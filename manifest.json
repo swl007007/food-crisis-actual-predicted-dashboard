@@ -16,7 +16,7 @@
   ],
   "available_models": [
     "GeoRF",
-    "GeoDT"
+    "GeoRF-Single"
   ],
   "available_scopes": [
     "fs1",
@@ -28,9 +28,9 @@
     "current_results_reproduction": "CURRENT_RESULTS_REPRODUCTION.md",
     "provider_status_required": "clean"
   },
-  "generated_at_utc": "2026-08-19T14:55:56Z",
+  "generated_at_utc": "2026-08-19T15:14:44Z",
   "geometry": {
-    "baseline_generated_at_utc": "2026-05-14T19:56:56Z",
+    "baseline_generated_at_utc": "2026-08-19T14:55:56Z",
     "distinct_feature_codes": 5718,
     "feature_count": 5718,
     "features_sha256": "792aacab3cd28b8f6d77e8a61c0f88b75ca1a410e7b901673c66050ae20413bc",
@@ -137,7 +137,7 @@
       ],
       "distinct_admin_codes": 5713,
       "horizon_months": 4,
-      "model": "GeoDT",
+      "model": "GeoRF-Single",
       "model_token": "DT",
       "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs1/predictions_monthly.csv",
       "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs1/run_manifest.json",
@@ -164,7 +164,7 @@
       ],
       "distinct_admin_codes": 5713,
       "horizon_months": 8,
-      "model": "GeoDT",
+      "model": "GeoRF-Single",
       "model_token": "DT",
       "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs2/predictions_monthly.csv",
       "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs2/run_manifest.json",
@@ -191,7 +191,7 @@
       ],
       "distinct_admin_codes": 5713,
       "horizon_months": 12,
-      "model": "GeoDT",
+      "model": "GeoRF-Single",
       "model_token": "DT",
       "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs3/predictions_monthly.csv",
       "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs3/run_manifest.json",

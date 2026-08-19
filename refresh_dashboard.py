@@ -28,7 +28,7 @@ REQUIRED_COLUMNS = (
 )
 MODEL_SOURCES = (
     ("GF", "GeoRF"),
-    ("DT", "GeoDT"),
+    ("DT", "GeoRF-Single"),
 )
 SCOPE_HORIZONS = {
     "fs1": 4,
@@ -61,7 +61,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Refresh the embedded dashboard payload from the current frozen no-leak "
-            "GeoRF/GeoDT Stage 3 prediction providers."
+            "GeoRF/GeoRF-Single Stage 3 prediction providers."
         )
     )
     parser.add_argument(
@@ -355,7 +355,7 @@ def remove_alpha_interaction(html_text: str) -> str:
         ),
         (
             "Exploratory diagnostics using existing GeoRF/GeoRF-single month-ind outputs and the global FEWSNET shapefile.",
-            "Paper-aligned interactive companion using the current frozen no-temporal-leak GeoRF/GeoDT Stage 3 outputs.",
+            "Paper-aligned interactive companion using the current frozen no-temporal-leak GeoRF/GeoRF-Single Stage 3 outputs.",
             "header provenance",
         ),
         (
@@ -634,4 +634,3 @@ if __name__ == "__main__":
     except DashboardRefreshError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         raise SystemExit(1)
-
