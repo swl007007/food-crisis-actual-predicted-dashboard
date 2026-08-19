@@ -1,4 +1,5 @@
 {
+  "artifact_role": "paper-aligned interactive companion",
   "available_dates": [
     "2021-02-01",
     "2021-06-01",
@@ -14,22 +15,31 @@
     "2024-10-01"
   ],
   "available_models": [
-    "GeoDT",
-    "GeoRF"
+    "GeoRF",
+    "GeoDT"
   ],
   "available_scopes": [
     "fs1",
     "fs2",
     "fs3"
   ],
-  "excluded_sources": [
-    "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_XGB_fs1\\predictions_monthly.csv",
-    "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_XGB_fs2\\predictions_monthly.csv",
-    "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_XGB_fs3\\predictions_monthly.csv"
-  ],
-  "generated_at_utc": "2026-05-14T19:56:56Z",
+  "final_artifact_contract": {
+    "artifact_source_audit": "final_artifacts_in_paper_updated/artifact_source_audit.csv",
+    "current_results_reproduction": "CURRENT_RESULTS_REPRODUCTION.md",
+    "provider_status_required": "clean"
+  },
+  "generated_at_utc": "2026-08-19T14:55:56Z",
+  "geometry": {
+    "baseline_generated_at_utc": "2026-05-14T19:56:56Z",
+    "distinct_feature_codes": 5718,
+    "feature_count": 5718,
+    "features_sha256": "792aacab3cd28b8f6d77e8a61c0f88b75ca1a410e7b901673c66050ae20413bc",
+    "method": "reused embedded SVG paths from the archived baseline dashboard",
+    "source_name": "FEWS_Admin_LZ_v3.shp"
+  },
   "included_sources": [
     {
+      "artifact_source_audit_status": "clean",
       "available_dates": [
         "2021-02-01",
         "2021-06-01",
@@ -44,80 +54,19 @@
         "2024-06-01",
         "2024-10-01"
       ],
-      "model": "GeoDT",
-      "model_token": "DT",
-      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_DT_fs1\\predictions_monthly.csv",
-      "required_columns_present": true,
-      "row_count": 62189,
-      "scope": "fs1"
-    },
-    {
-      "available_dates": [
-        "2021-02-01",
-        "2021-06-01",
-        "2021-10-01",
-        "2022-02-01",
-        "2022-06-01",
-        "2022-10-01",
-        "2023-02-01",
-        "2023-06-01",
-        "2023-10-01",
-        "2024-02-01",
-        "2024-06-01",
-        "2024-10-01"
-      ],
-      "model": "GeoDT",
-      "model_token": "DT",
-      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_DT_fs2\\predictions_monthly.csv",
-      "required_columns_present": true,
-      "row_count": 62189,
-      "scope": "fs2"
-    },
-    {
-      "available_dates": [
-        "2021-02-01",
-        "2021-06-01",
-        "2021-10-01",
-        "2022-02-01",
-        "2022-06-01",
-        "2022-10-01",
-        "2023-02-01",
-        "2023-06-01",
-        "2023-10-01",
-        "2024-02-01",
-        "2024-06-01",
-        "2024-10-01"
-      ],
-      "model": "GeoDT",
-      "model_token": "DT",
-      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_DT_fs3\\predictions_monthly.csv",
-      "required_columns_present": true,
-      "row_count": 62189,
-      "scope": "fs3"
-    },
-    {
-      "available_dates": [
-        "2021-02-01",
-        "2021-06-01",
-        "2021-10-01",
-        "2022-02-01",
-        "2022-06-01",
-        "2022-10-01",
-        "2023-02-01",
-        "2023-06-01",
-        "2023-10-01",
-        "2024-02-01",
-        "2024-06-01",
-        "2024-10-01"
-      ],
+      "distinct_admin_codes": 5713,
+      "horizon_months": 4,
       "model": "GeoRF",
       "model_token": "GF",
-      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_GF_fs1\\predictions_monthly.csv",
-      "required_columns_present": true,
+      "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_GF_fs1/predictions_monthly.csv",
+      "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_GF_fs1/run_manifest.json",
+      "provider_manifest_sha256": "49de1c0d74a25734c885399f27d29048398139d9779771ad0594e15f7e58e23b",
       "row_count": 62189,
-      "scope": "fs1"
+      "scope": "fs1",
+      "sha256": "8c60433adf20a06c9febc4156f331f89b758dcbf48294f9845639a3c01ea53b8"
     },
     {
+      "artifact_source_audit_status": "clean",
       "available_dates": [
         "2021-02-01",
         "2021-06-01",
@@ -132,14 +81,19 @@
         "2024-06-01",
         "2024-10-01"
       ],
+      "distinct_admin_codes": 5713,
+      "horizon_months": 8,
       "model": "GeoRF",
       "model_token": "GF",
-      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_GF_fs2\\predictions_monthly.csv",
-      "required_columns_present": true,
+      "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_GF_fs2/predictions_monthly.csv",
+      "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_GF_fs2/run_manifest.json",
+      "provider_manifest_sha256": "9a091617ab7f43ce003687f6bb550a9cd983c94d5445418d4a9f268cab7dc771",
       "row_count": 62189,
-      "scope": "fs2"
+      "scope": "fs2",
+      "sha256": "54d1664c3a1d04a0f9878954fefe57adc77ecffd268d2b87503032d806af9ec3"
     },
     {
+      "artifact_source_audit_status": "clean",
       "available_dates": [
         "2021-02-01",
         "2021-06-01",
@@ -154,12 +108,97 @@
         "2024-06-01",
         "2024-10-01"
       ],
+      "distinct_admin_codes": 5713,
+      "horizon_months": 12,
       "model": "GeoRF",
       "model_token": "GF",
-      "path": "main_ablation_results\\march2026_main_backup_month_ind_cont3\\result_partition_k40_compare_GF_fs3\\predictions_monthly.csv",
-      "required_columns_present": true,
+      "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_GF_fs3/predictions_monthly.csv",
+      "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_GF_fs3/run_manifest.json",
+      "provider_manifest_sha256": "993a297e392b2e43d64c40a0e58b236bb65ec8fb87685ae6e71fcdfb152200d7",
       "row_count": 62189,
-      "scope": "fs3"
+      "scope": "fs3",
+      "sha256": "3f988101df92b9369b73846effb4df110922d21906fe6055ce7e6d9c26c9bb9a"
+    },
+    {
+      "artifact_source_audit_status": "clean",
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "distinct_admin_codes": 5713,
+      "horizon_months": 4,
+      "model": "GeoDT",
+      "model_token": "DT",
+      "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs1/predictions_monthly.csv",
+      "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs1/run_manifest.json",
+      "provider_manifest_sha256": "5953daf3268999a9d56fada1ee22bd110c97056bd2ff5766121649844c271bcd",
+      "row_count": 62189,
+      "scope": "fs1",
+      "sha256": "b6ce9383f60aee8f4f139c7e4a98f1a8bbef0b02093bd87cdb2da893eda9c6d6"
+    },
+    {
+      "artifact_source_audit_status": "clean",
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "distinct_admin_codes": 5713,
+      "horizon_months": 8,
+      "model": "GeoDT",
+      "model_token": "DT",
+      "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs2/predictions_monthly.csv",
+      "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs2/run_manifest.json",
+      "provider_manifest_sha256": "b4eda69573bf14402a183659f3690f732228e702be6e53f7d2a6fe859ffb315a",
+      "row_count": 62189,
+      "scope": "fs2",
+      "sha256": "e5818e67b97961dd65c70e95520be615e1958345f5fb37703fb9a1e2afd4649d"
+    },
+    {
+      "artifact_source_audit_status": "clean",
+      "available_dates": [
+        "2021-02-01",
+        "2021-06-01",
+        "2021-10-01",
+        "2022-02-01",
+        "2022-06-01",
+        "2022-10-01",
+        "2023-02-01",
+        "2023-06-01",
+        "2023-10-01",
+        "2024-02-01",
+        "2024-06-01",
+        "2024-10-01"
+      ],
+      "distinct_admin_codes": 5713,
+      "horizon_months": 12,
+      "model": "GeoDT",
+      "model_token": "DT",
+      "path": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs3/predictions_monthly.csv",
+      "provider_manifest": "archived/release_20260624_reproducibility_inputs/result_partition_k40_compare_DT_fs3/run_manifest.json",
+      "provider_manifest_sha256": "9c9bb98a819ad8e112e620bce2307230ce5bfaa909189f7e732eb4128512e6da",
+      "row_count": 62189,
+      "scope": "fs3",
+      "sha256": "4fe28f4bd9a4f72a9c94eaca7fa535434b7cf7c99de33cc3d084dd4ed4f3b138"
     }
   ],
   "join_key": "FEWSNET_admin_code",
@@ -170,12 +209,21 @@
     "predicted_field": "y_pred_partitioned"
   },
   "omissions_or_warnings": [
-    "Fixed 1 invalid shapefile geometries with buffer(0)"
+    "Geometry was not regenerated; verified baseline SVG paths were retained while prediction data were refreshed."
   ],
-  "optional_assets": [],
-  "output_html": "C:\\Users\\swl00\\IFPRI Dropbox\\Weilun Shi\\Google fund\\Analysis\\2.source_code\\Step5_Geo_RF_trial\\Food_Crisis_Cluster\\main_ablation_results\\march2026_main_backup_month_ind_cont3\\actual_predicted_dashboard\\actual_predicted_dashboard.html",
-  "production_status": "exploratory",
-  "shapefile_path": "C:\\Users\\swl00\\IFPRI Dropbox\\Weilun Shi\\Google fund\\Analysis\\1.Source Data\\Outcome\\FEWSNET_IPC\\FEWS NET Admin Boundaries\\FEWS_Admin_LZ_v3.shp",
+  "production_status": "interactive companion; not a replacement for static paper figures",
+  "schema_version": 2,
+  "scope_contract": {
+    "fs1": {
+      "forecast_horizon_months": 4
+    },
+    "fs2": {
+      "forecast_horizon_months": 8
+    },
+    "fs3": {
+      "forecast_horizon_months": 12
+    }
+  },
   "smoke_test": {
     "date": "2024-06-01",
     "join_rows": 5697,
@@ -183,7 +231,15 @@
     "passed": true,
     "scope": "fs2"
   },
-  "source_directory": "main_ablation_results\\march2026_main_backup_month_ind_cont3",
+  "source_directory": "archived/release_20260624_reproducibility_inputs",
   "threshold_contract": "none; existing binary labels only",
-  "workflow_mode": "exploratory diagnostics/tooling"
+  "validation": {
+    "actual_labels_identical_across_providers": true,
+    "duplicate_admin_month_keys": 0,
+    "expected_dataset_count": 72,
+    "expected_provider_count": 6,
+    "expected_rows_per_provider": 62189,
+    "key_population_identical_across_providers": true
+  },
+  "workflow_mode": "current frozen no-temporal-leak Stage 3 release"
 }
